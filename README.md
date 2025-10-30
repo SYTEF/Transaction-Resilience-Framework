@@ -1,9 +1,6 @@
-# [PAYMENTS & SCHEMES] Transaction Resilience Framework (MVP)
+#Transaction Resilience Framework (MVP)
 
 Este projeto é um **MVP (Produto Mínimo Viável)** de um framework de automação focado em garantir a **Resiliência da Transação** — um pilar crítico no negócio de Pagamentos e Máquinas POS da Stone.
-
-**Candidato:** Enzo B.
-**Vaga:** Quality Assurance Engineer III
 
 ---
 
@@ -63,3 +60,4 @@ Este MVP será expandido com o meu compromisso de crescimento (Live the Ride) e 
     pytest tests -v
     ```
     *Resultado Esperado:* 3 testes aprovados.
+
