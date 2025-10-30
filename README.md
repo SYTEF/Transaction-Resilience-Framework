@@ -21,7 +21,7 @@ Escolhemos a **Automação de API** porque ela é a camada mais rápida e escal�
 
 ## 3. Cenários e Validação (O que foi Automatizado)
 
-O framework foi configurado para validar 3 comportamentos críticos (o foco de um Pleno/Sênior).
+O framework foi configurado para validar 3 comportamentos críticos.
 
 | Teste | Objetivo Estratégico | Comportamento Esperado | Resultado |
 | :--- | :--- | :--- | :--- |
@@ -29,7 +29,7 @@ O framework foi configurado para validar 3 comportamentos críticos (o foco de u
 | **2. `test_handles_bank_timeout`** | **Resiliência:** Simular lentidão de 10s do Banco (problema de sinal do POS) e forçar o sistema Stone a dar *timeout* em **5 segundos**. | O teste deve falhar por `Timeout` (o que é um SUCESSO de resiliência). | ✅ PASSOU |
 | **3. `test_handles_contract_error`** | **Estratégia de Contrato:** Simular uma quebra de API (o Banco envia `"estado"` em vez de `"status"`). | O teste deve falhar por `KeyError` no JSON, **detectando a quebra de contrato**. | ✅ PASSOU |
 
-## 4. Próximos Passos (Roadmap de 6 Meses - Visão Engineer III)
+## 4. Próximos Passos
 
 Este MVP será expandido com o meu compromisso de crescimento (Live the Ride) e foco em eficiência (Own It):
 
@@ -60,6 +60,7 @@ Este MVP será expandido com o meu compromisso de crescimento (Live the Ride) e 
     pytest tests -v
     ```
     *Resultado Esperado:* 3 testes aprovados.
+
 
 
 
