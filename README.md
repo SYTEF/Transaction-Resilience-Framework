@@ -11,7 +11,7 @@ Este projeto é um **MVP (Produto Mínimo Viável)** de um framework de automaç
 Com base na minha experiência com QA de Hardware, a falha mais custosa para o empreendedor é a **perda de venda devido a falhas de comunicação** (sinal 4G/Wi-Fi ruim, lentidão do banco emissor).
 
 * **O problema:** O POS (Maquininha) envia a transação, e o Backend da Stone espera. Se o banco parceiro demora demais, o sistema trava ou fica lento, prejudicando o cliente.
-* **A Solução (Resiliência):** Um QA Engineer III precisa garantir que o sistema da Stone seja **resiliente** e desista da transação rapidamente em caso de falha externa, retornando um erro limpo ao POS.
+* **A Solução (Resiliência):** Um QA precisa garantir que o sistema da Stone seja **resiliente** e desista da transação rapidamente em caso de falha externa, retornando um erro limpo ao POS.
 
 ### 2.2. A Estratégia de Qualidade
 
@@ -60,5 +60,6 @@ Este MVP será expandido com o meu compromisso de crescimento (Live the Ride) e 
     pytest tests -v
     ```
     *Resultado Esperado:* 3 testes aprovados.
+
 
 
